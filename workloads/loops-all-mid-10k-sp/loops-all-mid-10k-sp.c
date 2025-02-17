@@ -41,7 +41,7 @@ extern int bmark_verify_loops(void *);
 extern int bmark_clean_loops(void *);
 
 /* main function to create the workload, run it, and report results */
-int main(int argc, char *argv[])
+int coremarkpro_benchmark_main(int argc, char *argv[])
 {
 	char name[MITH_MAX_NAME];
 	char dataname_buf[MITH_MAX_NAME];
